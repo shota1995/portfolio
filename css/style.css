@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+html{
+  font-size :62.5%;
+}
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  background:url('../images/img5.jpg');
+  background-size: cover;
+  padding: auto;
+}
+
+
+.title-sub{
+  margin:0 0 30px;
+  letter-spacing:1px;
+  font-size:5rem;
+  text-align: center;
+  color:white;
+  opacity:inherit;
+  padding-top: 50px;
+}
+
+#title{
+  font-size: 250px;
+  font-family: 'Playfair Display',"Welcome", serif;
+  text-align: center;
+  z-index: 1;
+  color:cadetblue;
+  opacity: 0.4;
+  padding:105px 0;
+}
+
+.title-sub2{
+  font-size:1.5rem;
+  text-align:left;
+  color:black;
+  padding-bottom: 10px;
+  z-index: 3;
+}
+
+.about{
+  width:100%;
+  background-color: black;
+  height:500px;
+}
+
+.Me{
+  text-align: center;
+  color:cornsilk;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 55px;
+  border-bottom: cornsilk;
+  letter-spacing: 4px;
+  padding-top: 35px;
+  font-weight: lighter;
+}
+
+.me{
+  text-align:left;
+  color:violet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  border-bottom: cornsilk;
+  letter-spacing: 4px;
+  padding-left: 60px;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+
+.introduce{
+  text-align: left;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left:70px;
+  font-size:18px;
+  padding-top: 5px;
+}
